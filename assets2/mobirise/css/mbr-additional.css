@@ -11,7 +11,7 @@ body {
 }
 .custom-combobox {
     position: relative;
-    display: inline;
+    display: inline-block;
   }
   .custom-combobox-toggle {
     position: absolute;

@@ -2653,7 +2653,7 @@ body {
 }
 .cid-rA8ipzzY60 .card-wrapper {
   height: 100%;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 0px rgba(236, 48, 53, 1);
   transition: box-shadow 0.3s;
 }
 .cid-rA8ipzzY60 .card-wrapper .card-img {
@@ -2670,7 +2670,7 @@ body {
   -webkit-justify-content: center;
 }
 .cid-rA8ipzzY60 .card-wrapper .card-img .mbr-overlay {
-  background-color: red;
+  background-color: #ec3035;
   display: none;
   transition: opacity .3s;
 }

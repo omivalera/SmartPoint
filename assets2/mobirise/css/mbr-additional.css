@@ -2653,8 +2653,8 @@ body {
 }
 .cid-rA8ipzzY60 .card-wrapper {
   height: 100%;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  transition: box-shadow 0.3s;
+  box-shadow: 0px 0px 0px 0px #f90909;
+  transition: box-shadow 1.0s;
 }
 .cid-rA8ipzzY60 .card-wrapper .card-img {
   display: -webkit-flex;

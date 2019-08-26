@@ -109,6 +109,11 @@
 
 <section class="features18 popup-btn-cards cid-rA8ipzzY60" id="features18-i">
 
+    <div class="col-12 mt-2 mb-1"><input id="filtrar" type="text" class="form-control" placeholder="Ingresa  que deseas Buscar..."></div>
+      <div class="col-12 mx-auto pt-2 row" id="itemB">
+                                
+     </div>
+
     
     <div class="container">
         <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">
@@ -489,6 +494,25 @@
   <script src="assets2/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets2/mbr-popup-btns/mbr-popup-btns.js"></script>
   <script src="assets2/theme/js/script.js"></script>
+  <script type="text/javascript">
+ $(document).ready(function(){
+ 
+            (function ($) {
+ 
+                $('#filtrar').keyup(function () {
+ 
+                    var rex = new RegExp($(this).val(), 'i');
+                    $('#itemB div').hide();
+                    $('#itemB div').filter(function () {
+                        return rex.test($(this).text());
+                    }).show();
+ 
+                })
+ 
+            }(jQuery));
+ 
+        });
+</script>
   
   
 </body>

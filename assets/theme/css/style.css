@@ -104,7 +104,7 @@ section .mbr-background-video-preview {
 }
 
 .mbr-bg-white {
-  background-color: #ffffff;
+  background-color: blue;
 }
 
 .mbr-bg-black {
@@ -117,7 +117,7 @@ section .mbr-background-video-preview {
 }
 
 .align-center {
-  text-align: left;
+  text-align: center;
 }
 
 .align-right {

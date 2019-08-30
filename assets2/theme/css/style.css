@@ -117,7 +117,7 @@ section .mbr-background-video-preview {
 }
 
 .align-center {
-  text-align: center;
+  text-align: left;
 }
 
 .align-right {

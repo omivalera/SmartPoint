@@ -464,6 +464,8 @@ body {
   background-color: #ffffff;
   border-color: #ffffff;
 }
+
+/*clase por cada color de los textos*/
 .text-primary {
   color: #149dcc !important;
 }
@@ -613,6 +615,7 @@ a:hover {
   bottom: 30%;
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+  /*Final de Scroll*/
 }
 /* Others*/
 .note-check a[data-value=Rubik] {
@@ -2129,8 +2132,10 @@ body {
 .cid-rzKE70fhpK .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
+
+/*Transparencia antes del scroll*/
 .cid-rzJIKwTAzg .navbar {
-  background: #ffffff;
+  background: #ffffffbf;
   transition: none;
   min-height: 77px;
   padding: .5rem 0;
@@ -2260,9 +2265,12 @@ body {
   -webkit-transform: translateY(100%);
   z-index: 1000;
 }
-.cid-rzJIKwTAzg .navbar.navbar-short {
+
+/* color del menu despues del scrol.... Marico el que lo lea XDDD*/
+.cid-rzJIKwTAzg .navbar.navbar-short{
   min-height: 60px;
   transition: all .2s;
+  background: white;
 }
 .cid-rzJIKwTAzg .navbar.navbar-short .navbar-toggler-right {
   top: 20px;

@@ -1,5 +1,8 @@
 (function($) {
 
+
+{
+
     var isBuilder = $('html').hasClass('is-builder');
 
     $.extend($.easing, {

@@ -286,6 +286,14 @@ figure[mbr-media-size] {
   font-size: 0;
 }
 
+.mbr-section-btn2 {
+  margin-left: 17rem;
+  margin-right: -.25rem;
+  font-size: 0;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
 nav .mbr-section-btn {
   margin-left: 0rem;
   margin-right: 0rem;
